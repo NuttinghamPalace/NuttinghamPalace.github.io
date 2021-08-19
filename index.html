@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="icon" type="image/x-icon" href="./imgs/logo.png" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+</head>
+
+<script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+<script src="https://unpkg.com/dayjs@1.8.21/plugin/localizedFormat.js"></script>
+<script src="https://unpkg.com/dayjs@1.8.21/locale/ja.js"></script>
+<script>
+  dayjs.extend(window.dayjs_plugin_localizedFormat);
+  dayjs.locale('ja')
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+
+
+<body>
+
+  <div class="container">
+    <div class="selection-box-container">
+      <div class="tabs">
+        <div class="tabs-header">
+          <div class="tab-header-item item-1">一</div>
+          <div class="tab-header-item item-2">二</div>
+          <div class="tab-header-item item-3">三</div>
+          <div class="date-time">
+            <span></span>
+          </div>
+        </div>
+        <div class="tabs-container">
+          <div class="tabs-item item-1">
+            <div class="search-container">
+              <div class="search-bar">
+                <input type="text">
+              </div>
+          </div>
+        </div>
+        <div class="tabs-item item-2">
+          <div class="bookmarks-container">
+            <div class="bookmark-item entertainerment">
+              <span>Social</span>
+              <ul>
+                <li><a href="https://www.youtube.com/feed/subscriptions">Youtube</a></li>
+                <li><a href="https://www.twitch.tv/">Twitch</a></li>
+				<li><a href="https://www.reddit.com/">Reddit</a></li>
+              </ul>
+            </div>
+            <div class="bookmark-item">
+              <span>Anime & Manga</span>
+              <ul>
+                <li><a href="https://4animes.org/">4Anime</a></li>
+				<li><a href="https://9anime.to/">9Anime</a></li>
+				<li><a href="https://twist.moe/">AnimeTwist</a></li>
+				<li><a href="https://mangadex.org/">MangaDex</a></li>
+				<li><a href="https://myanimelist.net/">MyAnimeList</a></li>
+              </ul>
+            </div>
+            <div class="bookmark-item">
+              <span>Torrent</span>
+              <ul>
+                <li><a href="https://thepiratebay.org/index.html">Pirate Bay</a></li>
+                <li><a href="https://rarbgprx.org/torrents.php">RARBG</a></li>
+                <li><a href="https://emulation.gametechwiki.com/index.php/Main_Page">Emulation Wiki</a></li>
+                <li><a href="https://romsforever.co/">Roms</a></li>
+				<li><a href="https://yts.mx/">YTS</a></li>
+				<li><a href="https://www5.gowatchseries.bz/">WatchSeries</a></li>
+				<li><a href="https://nyaa.si/">Nyaa</a></li>
+              </ul>
+            </div>
+            <div class="bookmark-item">
+              <span>FFXIV</span>
+              <ul>
+                <li><a href="https://ffxivteamcraft.com/search">Teamcraft</a></li>
+				<li><a href="https://ff14fish.carbuncleplushy.com/">Fish Tracker App</a></li>
+				<li><a href="https://ffxivcollect.com/">Collect</a></li>
+				<li><a href="https://www.ffxivcollection.com/">Armoury Collection</a></li>
+              </ul>
+            </div>
+            <div class="bookmark-item">
+              <span>Guides</span>
+              <ul>
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+            <div class="bookmark-item">
+              <span>Misc</span>
+              <ul>
+                <li><a href=""></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="tabs-item item-3"></div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<script src="src.js"></script>
+</html>
