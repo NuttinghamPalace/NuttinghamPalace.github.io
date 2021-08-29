@@ -5,7 +5,7 @@ $(document).ready(function () {
   }, 1000);
 
   // TODO: random image picker
-  $('body').css('background-image', 'url(./imgs/background/image1.png)');
+  $('body').css('background-image', 'url(./imgs/background/image1.jpg)');
 
   $('.tabs-item.item-1').addClass('active');
   $('.tab-header-item').first().addClass('active');
